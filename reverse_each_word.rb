@@ -1,9 +1,10 @@
 def reverse_each_word(string)
   sentence = string.split
+  response = []
   sentence.each do |word|
-    print word.reverse
+    response << word.reverse
   end
- 
+
 end
 
 # def reverse_each_word(string)
