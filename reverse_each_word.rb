@@ -1,3 +1,5 @@
 def reverse_each_word(string)
-  string.each.reverse
+  sentence = string.to_a
+  sentence.each.reverse
+  sentence.join(" ")
 end
