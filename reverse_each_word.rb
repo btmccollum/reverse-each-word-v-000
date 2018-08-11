@@ -5,8 +5,8 @@ def reverse_each_word(string) #reverses each word in the sentence in place using
   response.join(" ")
 end
 
-def reverse_each_word(string) #reverses each word in the sentence in place using '.collect'
-  sentence = string.split
-  response = sentence.collect{|word| word.reverse}.join(" ")
-  # response.join(" ")
-end
+# def reverse_each_word(string) #reverses each word in the sentence in place using '.collect'
+#   sentence = string.split
+#   response = sentence.collect{|word| word.reverse}.join(" ")
+#   # response.join(" ")
+# end
